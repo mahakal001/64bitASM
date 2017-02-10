@@ -1,6 +1,10 @@
 =================== EXCLUSIVELY FOR YOU ==================
+# Coded By : Mohit Kumar
+# Tested On: x86-64bit ubuntu 14.04
+# Contact  : mkal001@cyberdude.com
 
-STOP:  Have you ever used memory allocating functions like malloc,calloc,free etc. in c
+# STOP:  
+       Have you ever used memory allocating functions like `malloc,calloc,free` etc. in c
        These function are wrapper functions provided by library.
      * A program's break address is one upto which a program can store its all desired 
        data
@@ -9,7 +13,7 @@ STOP:  Have you ever used memory allocating functions like malloc,calloc,free et
        specified in the argument to brk().
      * And to free a memory space...drop the break address to desired value
 
-WHAT THIS PIECE OF CODE DOES:
+# WHAT THIS PIECE OF CODE DOES:
 
 *WARNING:the addresses returned are printed in base 10.you can use some app. to see 
          their equivalent hexa-decimal representation
@@ -28,7 +32,7 @@ WHAT THIS PIECE OF CODE DOES:
        passed as arg. to brk().This sets new brk address resulting in the free up 
        of 1024k of memory from our previously allocated memory.
 
-WHAT FREEing A MEMORY AREA MEANS
+# WHAT FREEing A MEMORY AREA MEANS
 
 * The kernel maintains a doubly linked list of available free space to any program.
   The addresses available here are always available for allocation to any new demand 
@@ -36,12 +40,13 @@ WHAT FREEing A MEMORY AREA MEANS
 * Any memory freed with the call free(ADDR) just mov the address ADDR to this link 
   list and this is declared as available for other memory request.
 
-WHAT YOU SHOULD GOOGLE:
+# WHAT YOU SHOULD GOOGLE:
 
 * when you call the function :  free(ADDR)
   How kernel know that what amount of bytes to free starting from ADDR 
 * what if the free(ADDR) wants to free a memory area which is between memory still
   in use.Because we can't decrement the brk boundry..
 
-  ;====== BE CREATIVE MAN : LINUX IS SEXY =======
+  ====== BE CREATIVE MAN : LINUX IS SEXY =======
+  
   ;============= JAI MAHAKAL  ===================
