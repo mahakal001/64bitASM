@@ -1,17 +1,16 @@
 # 64bit_shellcodes
 
 ================  SHELLCODES ====================================
-@ if this name does not thrill your soul then you should stop reading right now and
+
+# if this name does not thrill your soul then you should stop reading right now and
   make some google search for this term
 
-=====================================================================
-@ Shellcoder : mahakal
-@ date : Nov , 2016
-@ why  : I love this concept
-@ TESTED ON : UBUNTU 14.04  x86-64
-======================================================================
+# Shellcoder : mahakal
+# date : Nov , 2016
+# TESTED ON : UBUNTU 14.04  x86-64
 
-@ A SHORT GUIDE ( or intro ? )
+
+# A SHORT GUIDE ( or intro ? )
    step 1 :
             get the shellcode and execute follwoing command on your machine (x86-64) 
 
